@@ -99,16 +99,13 @@ neodb-manage task --list
 neodb-manage cron --list
 ```
 
-Manage search index
+Rebuild search index
+
 ```
-neo-manage index --reindex
+neodb-manage catalog idx-reindex
 ```
 
-Crawl links
-```
-neodb-manage cat [--save] <url>  # parse / save a supported link
-neodb-manage crawl <url>  # crawl all recognizable links from a page
-```
+There are [more commands](usage/catalog.md) available to manage catalog.
 
 
 ## Run PostgresQL/Redis/Typesense without Docker
