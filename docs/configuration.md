@@ -105,7 +105,7 @@ Rebuild search index
 neodb-manage catalog idx-reindex
 ```
 
-see `usage/catalog.md` for other commands to manage catalog
+There are [more commands](usage/catalog.md) available to manage catalog.
 
 
 ## Run PostgresQL/Redis/Typesense without Docker
