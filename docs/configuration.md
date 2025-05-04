@@ -62,6 +62,10 @@ if you are doing debug or development:
 - `IGDB_API_CLIENT_ID`, `IGDB_API_CLIENT_SECRET` - IGDB [keys](https://api-docs.igdb.com/)
 - `NEODB_SEARCH_SITES` is empty by default, which means NeoDB will search all available sources. This can be set to a comma-separated list of site names (e.g. `goodreads,googlebooks,spotify,tmdb,igdb,bandcamp,apple_podcast`), so that NeoDB will only search those sites; or not search any of them if set to just `-`.
 
+## Translation
+set either of these will enable translation
+- `DEEPL_API_KEY` for DeepL
+- `LT_API_URL` and `LT_API_KEY` for LibreTranslate server
 
 ## Other maintenance tasks
 
