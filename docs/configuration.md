@@ -41,7 +41,7 @@ if you are doing debug or development:
  	- `anymail://<anymail_backend_name>?<anymail_args>`, to send email via email service providers, see [anymail doc](https://anymail.dev/)
 
 ## Settings for administration
- - `DISCORD_WEBHOOKS` - Discord channel to send notification about user submitted suggestion and changes, e.g. `suggest=https://discord.com/api/webhooks/123/abc,audit=https://discord.com/api/webhooks/123/def`. Both suggest and audit channels must be in forum mode.
+ - `DISCORD_WEBHOOKS` - Discord channel to send notification about user submitted suggestion and changes, e.g. `suggest=https://discord.com/api/webhooks/123/abc,audit=https://discord.com/api/webhooks/123/def,report=https://discord.com/api/webhooks/123/xyz`. All channels must be in forum mode.
  - `NEODB_SENTRY_DSN` , `TAKAHE_SENTRY_DSN` - [Sentry](https://sentry.io/) DSN to log errors.
 
 ## Settings for Federation
@@ -52,6 +52,7 @@ if you are doing debug or development:
 
  	`relay.neodb.net` is [open sourced](https://github.com/neodb-social/neodb-relay) and operated by NeoDB developers, it works like most ActivityPub relays except it only relays between NeoDB instances, it helps public information like catalogs and trends flow between NeoDB instances. You may set it to `True` if you don't want to relay public posts with other NeoDB instances.
 
+ - `TAKAHE_NO_FEDERATION` set to `1` to disable federation with other fediverse sites. Please note this is only for test and development purpose, it may generate more error messages in backend, and will not prevent access from public. 
 
 ## Settings for external item sources
 
@@ -64,8 +65,9 @@ if you are doing debug or development:
 
 ## Translation
 set either of these will enable translation
-- `DEEPL_API_KEY` for DeepL
-- `LT_API_URL` and `LT_API_KEY` for LibreTranslate server
+
+- `DEEPL_API_KEY` for [DeepL](https://www.deepl.com/)
+- `LT_API_URL` and `LT_API_KEY` for [LibreTranslate](https://libretranslate.com/) server
 
 ## Other maintenance tasks
 

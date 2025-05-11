@@ -1,6 +1,6 @@
 # Apps
 
-NeoDB web version will provide the most features and experience, while some third-party apps are also available below.
+NeoDB web version works in desktop and mobile, and provides the most complete features and experience, meanwhile some third-party apps are also available below, they are not affliated with NeoDB unless otherwise specified. 
 
 ## Apps for NeoDB
 
