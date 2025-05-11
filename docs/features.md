@@ -41,6 +41,7 @@ NeoDB has [various features](features.md), and you may image it as a mix of Mast
 
 ## Social
 
+  - publish and reply post in text and image
   - view home feed with friends' activities
     - every activity can be set as viewable to self/follower-only/public
     - eligible items, e.g. podcasts and albums, are playable in feed
