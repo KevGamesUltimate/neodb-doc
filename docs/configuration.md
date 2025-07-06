@@ -38,7 +38,7 @@ if you are doing debug or development:
  	- `smtp://<username>:<password>@<host>:<port>`
  	- `smtp+tls://<username>:<password>@<host>:<port>`
  	- `smtp+ssl://<username>:<password>@<host>:<port>`
- 	- `anymail://<anymail_backend_name>?<anymail_args>`, to send email via email service providers, see [anymail doc](https://anymail.dev/)
+ 	- `anymail://<anymail_backend_name>?<anymail_args>`, to send email via email service providers, e.g. `anymail://mailgun?MAILGUN_API_KEY=XXXXXXXX` for mailgun, see [anymail doc](https://anymail.dev/) for list of supported providers and configuration details
 
 ## Settings for administration
  - `DISCORD_WEBHOOKS` - Discord channel to send notification about user submitted suggestion and changes, e.g. `suggest=https://discord.com/api/webhooks/123/abc,audit=https://discord.com/api/webhooks/123/def,report=https://discord.com/api/webhooks/123/xyz`. All channels must be in forum mode.
