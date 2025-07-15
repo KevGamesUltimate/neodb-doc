@@ -67,6 +67,6 @@ By remote identity:
 ```
 docker compose --profile production run --rm shell neodb-manage user --delete [USERNAME]@remote.instance
 ```
-> **NOTE:** You can't undo this, unless you recover a backup of your instance, which also reverts any changes that has been made since the backup.
+> **NOTE:** You can't undo this, unless you recover a backup of your instance, which also reverts any changes that have been made since the backup.
 
 <br>
