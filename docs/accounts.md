@@ -24,7 +24,7 @@ docker compose --profile production run --rm shell neodb-manage invite --create
 ---
 
 ## **Create admin account**
-A step by step admin account creation. If you already got an account and want to make it admin, skip to the next point.
+A step-by-step admin account creation. If you already got an account and want to make it admin, skip to the next point.
 ```
 docker compose --profile production run --rm shell neodb-manage createsuperuser
 ```
