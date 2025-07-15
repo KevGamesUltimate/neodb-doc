@@ -86,7 +86,7 @@ Open `https://yourdomain.tld` in your browser and register an account, assuming 
 ```
 docker compose --profile production run --rm shell neodb-manage user --super admin
 ```
-Take a look at [Manage Accounts](accounts.md) for more informations.
+Take a look at [Manage Accounts](accounts.md) for more information.
 
 ## What now?
 Now your instance should be ready to serve. More tweaks are available, see [Configuration](configuration.md) for options.
