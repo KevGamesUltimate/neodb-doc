@@ -10,7 +10,7 @@ List all accounts which have been created on your instance.
 ```
 docker compose --profile production run --rm shell neodb-manage user --list
 ```
-> **NOTE:** This shows sensitive informations like the e-mail adress and the fediverse account.
+> **NOTE:** This shows sensitive information like the e-mail address and the fediverse account.
 
 ---
 
