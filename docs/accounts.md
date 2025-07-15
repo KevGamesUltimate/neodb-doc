@@ -44,7 +44,7 @@ A staff account is able to manually merge entries, which already have been marke
 ```
 docker compose --profile production run --rm shell neodb-manage user --staff [USERNAME]
 ```
-> **NOTE:** An user account is able to be an admin and a staff member simultaneously. An admin is not able to merge marked entries. To do so, make the admin account a staff member too.
+> **NOTE:** A user account is able to be an admin and a staff member simultaneously. An admin is not able to merge marked entries. To do so, make the admin account a staff member too.
 
 ---
 
