@@ -35,7 +35,7 @@ docker compose --profile production run --rm shell neodb-manage createsuperuser
 ```
 docker compose --profile production run --rm shell neodb-manage user --super [USERNAME]
 ```
-> **NOTE:** Be carefull with this. An admin is able change a lot and - possibly - messup your instance.
+> **NOTE:** Be careful with this. An admin is able to change a lot and - possibly - mess up your instance.
 
 ---
 
