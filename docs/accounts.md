@@ -40,7 +40,7 @@ docker compose --profile production run --rm shell neodb-manage user --super [US
 ---
 
 ## **Toggle an existing account to staff**
-A staff account is able to manualy merge entries, which already have been marked by users. There is also an option in each entry, to restrict only staff members to further edit this entry.
+A staff account is able to manually merge entries, which already have been marked by users. There is also an option in each entry, to restrict only staff members to further edit this entry.
 ```
 docker compose --profile production run --rm shell neodb-manage user --staff [USERNAME]
 ```
