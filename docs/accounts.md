@@ -49,7 +49,7 @@ docker compose --profile production run --rm shell neodb-manage user --staff [US
 ---
 
 ## **Deactivate / activate account**
-When a user missbehaves, you could deactivate the account. When deactivating an account, the e-mail is kept as "already beeing used", so the user is not able to create a second account with the same e-mail adress. It's basically a ban.
+When a user misbehaves, you could deactivate the account. When deactivating an account, the e-mail is kept as "already being used", so the user is not able to create a second account with the same e-mail address. It's basically a ban.
 ```
 docker compose --profile production run --rm shell neodb-manage user --active [USERNAME]
 ```
