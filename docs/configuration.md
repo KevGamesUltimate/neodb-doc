@@ -57,7 +57,7 @@ if you are doing debug or development:
 ## Settings for external item sources
 
 - `SPOTIFY_API_KEY` - see [spotify doc](https://developer.spotify.com/documentation/web-api/tutorials/client-credentials-flow)
-<br>*--> make sure to encrypt the string you enter, like* `echo -n 'client-id:client-secret' | base64`, *otherwise it will not work*
+<br>*Note: The value must be base64 **encoded**. Use `echo -n 'client-id:client-secret' | base64` to generate it.*
 - `TMDB_API_V3_KEY` - API v3 key from [TMDB](https://developer.themoviedb.org/)
 - `GOOGLE_API_KEY` - API key for [Google Books](https://developers.google.com/books/docs/v1/using)
 - `DISCOGS_API_KEY` - personal access token from [Discogs](https://www.discogs.com/settings/developers)
